@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+      
+          #hd {
+            width: 100%;
+            height: 70px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-self: center;
+            
+            border: none;
+          }
+          #hd>div:nth-of-type(1) {
+            width:25px;
+            height:25px;
+             display: flex;
+             justify-content: center;
+             align-self: center;
+             flex-grow: 1;
+           }
+           
+           #ls{
+             display: flex;
+             flex-grow: 0.5;
+             
+           }
+        
+          #hd>div:nth-of-type(2) {
+            display: flex;
+            flex-grow: .7;
+            justify-content: flex-end;
+            align-items: center;
+            gap:20px;
+      
+          }
+          #btn1{
+            background-color: #d7f7fb;
+            border: none;
+            height: 40px;
+            width: 150px;
+            color: blue;
+          }
+          #btn2{
+            background-color:white;
+            border: .5px solid red;
+            height: 40px;
+            width: 80px;
+            color:red;
+            border-radius: 5px;
+          }
+          a{
+            text-decoration: none;
+            color: black;
+          }
+    </style>
+</head>
+<body>
+    <div id="hd">
+        <div>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.QmdI0ha1pTW-AG3-spLTDQHaB6&pid=Api&P=0&h=180" alt="logo"/>
+        </div>
+        <div>
+          <div>
+            <a href="#">COURSE</a>
+          </div>
+          <div>
+            <a href="#">FEES&ISA</a>
+          </div>
+          <div>
+            <a href="#">ABOUT US</a>
+          </div>
+          <div>
+            <a href="#">HIRE FROM US</a>
+          </div>
+          <div>
+            <a href="#">FAQ</a>
+          </div>
+          <div>
+            <a href="#"> EVENTS</a>
+          </div>
+          <div>
+             <button id="btn1">REFER & EARN</button>
+          </div>
+          <div>
+            <button id="btn2">LOGIN</button>
+          </div>
+          <div id="ls">
+
+          </div>
+        </div>
+      </div>
+</body>
+</html>
