@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 22%;  
+    }
+
+    .button-container {
+      position: absolute;
+    
+    }
+
+    .box {
+      display: none;
+      position: absolute;
+      text-align: center;
+      padding: 20px;
+      background-color:brown;
+      border: 1px solid #ccc;
+    }
+
+    .button-container:active +.box {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button>Click me</button>
+  </div>
+
+  <div class="box">
+    <p>This is info</p>
+  </div>
+</body>
+</html>
